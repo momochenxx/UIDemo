@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.momochen.uidemo.scrollview.ExternalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="#CCCCCC" />
+
+            <com.momochen.uidemo.scrollview.InsideScrollView
+                android:layout_width="match_parent"
+                android:layout_height="300dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:background="#44FF0000" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:background="#66FF0000" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:background="#88FF0000" />
+
+                </LinearLayout>
+
+            </com.momochen.uidemo.scrollview.InsideScrollView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="#CCCCCC" />
+
+        </LinearLayout>
+
+
+    </com.momochen.uidemo.scrollview.ExternalScrollView>
+</LinearLayout>
