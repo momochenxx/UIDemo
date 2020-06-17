@@ -6,38 +6,28 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="=========ExternalScrollView  onInterceptTouchEvent" />
     <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19b72448-e798-420b-ac1c-704a3ae07282" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/momochen/uidemo/scrollview/ExternalScrollView.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/momochen/uidemo/scrollview/InsideScrollView.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/momochen/uidemo/scrollview/ScrollView1Activity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_scrollview1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/momochen/uidemo/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/momochen/uidemo/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/momochen/uidemo/scrollview/ExternalScrollView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/momochen/uidemo/scrollview/ExternalScrollView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/momochen/uidemo/scrollview/InsideScrollView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/momochen/uidemo/scrollview/InsideScrollView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_scrollview1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_scrollview1.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +163,19 @@
       <option name="presentableId" value="Default" />
       <updated>1592270299040</updated>
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1592300454543</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592300454543</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="WindowStateProjectService">
     <state x="578" y="257" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592300152584">
@@ -186,6 +188,10 @@
     </state>
     <state x="480" y="309" key="AndroidCreateResourceFileDialog/0.23.1680.963@0.23.1680.963" timestamp="1592298076916" />
     <state x="2228" y="373" key="AndroidCreateResourceFileDialog/1680.23.1920.1177/0.23.1680.961@1680.23.1920.1177" timestamp="1592271210518" />
+    <state x="473" y="106" key="CommitChangelistDialog2" timestamp="1592300454012">
+      <screen x="0" y="23" width="1680" height="967" />
+    </state>
+    <state x="473" y="106" key="CommitChangelistDialog2/1680.23.1920.1177/0.23.1680.967@0.23.1680.967" timestamp="1592300454012" />
     <state x="2507" y="512" key="Github.ShareDialog" timestamp="1592270534931">
       <screen x="1680" y="23" width="1920" height="1177" />
     </state>
@@ -195,30 +201,43 @@
       <screen x="1680" y="23" width="1920" height="1177" />
     </state>
     <state x="2428" y="325" key="Github.UntrackedFilesDialog/1680.23.1920.1177/0.23.1680.960@1680.23.1920.1177" timestamp="1592270396278" />
-    <state width="1638" height="208" key="GridCell.Tab.0.bottom" timestamp="1592298257288">
-      <screen x="0" y="23" width="1680" height="965" />
+    <state width="1638" height="504" key="GridCell.Tab.0.bottom" timestamp="1592361370654">
+      <screen x="0" y="23" width="1680" height="960" />
     </state>
     <state width="1638" height="208" key="GridCell.Tab.0.bottom/0.23.1680.965@0.23.1680.965" timestamp="1592298257288" />
-    <state width="1638" height="208" key="GridCell.Tab.0.center" timestamp="1592298257287">
-      <screen x="0" y="23" width="1680" height="965" />
+    <state width="1638" height="504" key="GridCell.Tab.0.bottom/1680.23.1920.1177/0.23.1680.960@0.23.1680.960" timestamp="1592361370654" />
+    <state width="1638" height="220" key="GridCell.Tab.0.bottom/1680.23.1920.1177/0.23.1680.972@0.23.1680.972" timestamp="1592302373248" />
+    <state width="1638" height="504" key="GridCell.Tab.0.center" timestamp="1592361370653">
+      <screen x="0" y="23" width="1680" height="960" />
     </state>
     <state width="1638" height="208" key="GridCell.Tab.0.center/0.23.1680.965@0.23.1680.965" timestamp="1592298257287" />
-    <state width="1638" height="208" key="GridCell.Tab.0.left" timestamp="1592298257287">
-      <screen x="0" y="23" width="1680" height="965" />
+    <state width="1638" height="504" key="GridCell.Tab.0.center/1680.23.1920.1177/0.23.1680.960@0.23.1680.960" timestamp="1592361370653" />
+    <state width="1638" height="220" key="GridCell.Tab.0.center/1680.23.1920.1177/0.23.1680.972@0.23.1680.972" timestamp="1592302373247" />
+    <state width="1638" height="504" key="GridCell.Tab.0.left" timestamp="1592361370652">
+      <screen x="0" y="23" width="1680" height="960" />
     </state>
     <state width="1638" height="208" key="GridCell.Tab.0.left/0.23.1680.965@0.23.1680.965" timestamp="1592298257287" />
-    <state width="1638" height="208" key="GridCell.Tab.0.right" timestamp="1592298257287">
-      <screen x="0" y="23" width="1680" height="965" />
+    <state width="1638" height="504" key="GridCell.Tab.0.left/1680.23.1920.1177/0.23.1680.960@0.23.1680.960" timestamp="1592361370652" />
+    <state width="1638" height="220" key="GridCell.Tab.0.left/1680.23.1920.1177/0.23.1680.972@0.23.1680.972" timestamp="1592302373247" />
+    <state width="1638" height="504" key="GridCell.Tab.0.right" timestamp="1592361370653">
+      <screen x="0" y="23" width="1680" height="960" />
     </state>
     <state width="1638" height="208" key="GridCell.Tab.0.right/0.23.1680.965@0.23.1680.965" timestamp="1592298257287" />
+    <state width="1638" height="504" key="GridCell.Tab.0.right/1680.23.1920.1177/0.23.1680.960@0.23.1680.960" timestamp="1592361370653" />
+    <state width="1638" height="220" key="GridCell.Tab.0.right/1680.23.1920.1177/0.23.1680.972@0.23.1680.972" timestamp="1592302373247" />
     <state x="2488" y="329" key="RollbackChangesDialog" timestamp="1592270455753">
       <screen x="1680" y="23" width="1920" height="1177" />
     </state>
     <state x="2488" y="329" key="RollbackChangesDialog/1680.23.1920.1177/0.23.1680.960@1680.23.1920.1177" timestamp="1592270455753" />
-    <state x="2240" y="351" key="Vcs.Push.Dialog.v2" timestamp="1592271124919">
-      <screen x="1680" y="23" width="1920" height="1177" />
+    <state x="490" y="292" key="Vcs.Push.Dialog.v2" timestamp="1592300456384">
+      <screen x="0" y="23" width="1680" height="967" />
     </state>
     <state x="2240" y="351" key="Vcs.Push.Dialog.v2/1680.23.1920.1177/0.23.1680.960@1680.23.1920.1177" timestamp="1592271124919" />
     <state x="2240" y="351" key="Vcs.Push.Dialog.v2/1680.23.1920.1177/0.23.1680.961@1680.23.1920.1177" timestamp="1592270875254" />
+    <state x="490" y="292" key="Vcs.Push.Dialog.v2/1680.23.1920.1177/0.23.1680.967@0.23.1680.967" timestamp="1592300456384" />
+    <state x="519" y="335" key="com.intellij.ide.util.TipDialog" timestamp="1592356653922">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state x="519" y="335" key="com.intellij.ide.util.TipDialog/1680.23.1920.1177/0.23.1680.960@0.23.1680.960" timestamp="1592356653922" />
   </component>
 </project>
