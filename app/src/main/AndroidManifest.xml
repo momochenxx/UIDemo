@@ -17,6 +17,7 @@
         </activity>
 
         <activity android:name=".scrollview.ScrollView1Activity" />
+        <activity android:name=".scrollview.ScrollView2Activity" />
     </application>
 
 </manifest>

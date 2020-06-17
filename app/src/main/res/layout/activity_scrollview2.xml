@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.momochen.uidemo.scrollview.ExternalScrollView
+    <com.momochen.uidemo.scrollview.XExternalScrollView
         android:id="@+id/external_scrollview"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -18,7 +18,7 @@
                 android:layout_height="300dp"
                 android:background="#CCCCCC" />
 
-            <com.momochen.uidemo.scrollview.InsideScrollView
+            <com.momochen.uidemo.scrollview.XInsideScrollView
                 android:id="@+id/inside_scrollview"
                 android:layout_width="match_parent"
                 android:layout_height="200dp">
@@ -45,7 +45,7 @@
 
                 </LinearLayout>
 
-            </com.momochen.uidemo.scrollview.InsideScrollView>
+            </com.momochen.uidemo.scrollview.XInsideScrollView>
 
             <View
                 android:layout_width="match_parent"
@@ -55,5 +55,5 @@
         </LinearLayout>
 
 
-    </com.momochen.uidemo.scrollview.ExternalScrollView>
+    </com.momochen.uidemo.scrollview.XExternalScrollView>
 </LinearLayout>
