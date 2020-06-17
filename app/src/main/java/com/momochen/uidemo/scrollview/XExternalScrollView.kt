@@ -33,10 +33,10 @@ class XExternalScrollView @JvmOverloads constructor(
         val result = super.onInterceptTouchEvent(ev)
         println("====onInterceptTouchEvent>${ev?.actionMasked}    $result")
 
-        if (result && isFirstIntercept) {
-            isFirstIntercept = false
-            return false
-        }
+//        if (result && isFirstIntercept) {
+//            isFirstIntercept = false
+//            return false
+//        }
 
         return result
     }

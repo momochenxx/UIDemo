@@ -12,11 +12,27 @@ import androidx.core.view.ViewParentCompat
 class XInsideScrollView @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
 ) : ScrollView(context, attrs, defStyleAttr) {
+    private var mLastY = 0F
 
     override fun dispatchTouchEvent(ev: MotionEvent?): Boolean {
-        val result = super.dispatchTouchEvent(ev)
-        println("====XInsideScrollView>${ev?.actionMasked}   $result")
-        return result
+        println("=========InsideScrollView  dispatchTouchEvent")
+        ev ?: return super.dispatchTouchEvent(ev)
+
+        val y = ev.y
+        when (ev.actionMasked) {
+            MotionEvent.ACTION_DOWN -> parent.requestDisallowInterceptTouchEvent(true)
+            MotionEvent.ACTION_MOVE -> {
+                val detY = y - mLastY
+                val isScrolledTop = detY > 0 && !canScrollVertically(-1)
+                val isScrolledBottom = detY < 0 && !canScrollVertically(1)
+                //根据自身是否滑动到顶部或者顶部来判断让父View拦截触摸事件
+                if (isScrolledTop || isScrolledBottom) {
+                    parent.requestDisallowInterceptTouchEvent(false)
+                }
+            }
+        }
+        mLastY = y
+        return super.dispatchTouchEvent(ev);
     }
 
     override fun onTouchEvent(ev: MotionEvent?): Boolean {
