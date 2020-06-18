@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.momochen.uidemo.scrollview.ScrollView1Activity
 import com.momochen.uidemo.scrollview.ScrollView2Activity
+import com.momochen.uidemo.xxscrollview.ScrollView3Activity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -23,6 +24,13 @@ class MainActivity : AppCompatActivity() {
             Intent(
                 this,
                 ScrollView2Activity::class.java
+            ).apply { startActivity(this) }
+        }
+
+        btn_3.setOnClickListener {
+            Intent(
+                this,
+                ScrollView3Activity::class.java
             ).apply { startActivity(this) }
         }
     }
